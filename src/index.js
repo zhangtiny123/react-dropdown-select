@@ -500,7 +500,6 @@ export class Select extends Component {
           onKeyDown={this.handleKeyDown}
           aria-label="Dropdown select"
           aria-expanded={this.state.dropdown}
-          onClick={(event) => this.dropDown('open', event)}
           tabIndex={this.props.disabled ? '-1' : '0'}
           direction={this.props.direction}
           style={this.props.style}
